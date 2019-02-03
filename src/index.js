@@ -14,12 +14,12 @@ import * as serviceWorker from './serviceWorker'
 import './index.css';
 //
 //my router
-import myReactRouter from './router/router'
+import ReactRouter from './router/router'
 //
 //render
 ReactDOM.render(
     <Router>
-        <myReactRouter/>
+        <ReactRouter/>
     </Router>, document.getElementById('root')
 )
 //
